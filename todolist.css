@@ -1,0 +1,109 @@
+body{
+    background-color:black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center children horizontally */
+    background-color: black;
+    margin: 70px auto;
+    width: 93%;
+    height: 500px;
+    border-radius: 400px;
+    box-shadow: 0 0 30px aquamarine;
+    padding: 50px;
+    background-size: cover;
+   overflow: auto;
+}
+
+#h1{
+    color: aqua;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 2%;
+    text-align: center;
+    overflow: hidden;
+   
+}
+
+.auto-type{
+    color: aqua;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 4%;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+
+#input {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    font-weight: bolder;
+    border: 5px solid aqua;
+    width: 40%;
+    height: 50px;
+    border-radius: 200px;
+    margin-bottom: 10px; /* Add margin below the input */
+}
+
+#add {
+    background-color: black;
+    color: aqua;
+    border: 5px solid aqua;
+    width: 15%;
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 20px; /* Add margin below the button */
+}
+
+  #ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+  
+#input::placeholder {
+    color: aqua; /* Set the color of the placeholder text */
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.list-element {
+    color: aqua;
+    list-style: decimal-leading-zero;
+    text-align: center; /* Center the text within the list elements */
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.remove-button{
+    background-color: black;
+    color: aqua;
+    border: 5px solid aqua; /* Border width, style, and color */
+    height: 50px; 
+    border-radius: 100px;
+    margin-left: 5px;
+    
+}
+
+/* Target the default scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    
+}
+
+/* Target the thumb (the draggable part) of the scrollbar */
+::-webkit-scrollbar-thumb {
+    background-color:black; /* Background color of the thumb */
+    border-radius: 10px; /* Border radius of the thumb */
+    border: 3px solid aqua;
+}
+
+/* Target the track (the area behind the thumb) of the scrollbar */
+::-webkit-scrollbar-track {
+    background-color:black; /* Background color of the track */
+}
